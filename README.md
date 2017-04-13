@@ -56,6 +56,6 @@ Install allure
 Usage
 -------------
 	>enter project directory
-	>$ cucumber --format AllureCucumber::Formatter --out report/
+	>$ cucumber
 	>$ allure generate report/
 	>$ allure report open
