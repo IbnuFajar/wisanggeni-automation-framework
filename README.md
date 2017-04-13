@@ -57,5 +57,5 @@ Usage
 -------------
 	>enter project directory
 	>$ cucumber
-	>$ allure generate report/
+	>$ allure generate report
 	>$ allure report open
