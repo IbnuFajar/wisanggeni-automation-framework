@@ -27,35 +27,35 @@ Installation
 Install homebrew :
 
 
-	> /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 Upgrade ruby:
 
-		 >brew upgrade ruby > then close terminal
+	brew upgrade ruby > then close terminal
 
 Install selenium-webdriver:
 
-		>gem install selenium-webdriver
+	gem install selenium-webdriver
 
 Install cucumber:
 
-		>gem install cucumber
+	gem install cucumber
 
 Install geckodriver(for firefox):
 
-		>brew install geckodriver
+	brew install geckodriver
 
 Install chromedriver(for googlechrome):
 
-		>brew install chromedriver
+	brew install chromedriver
 
 Install allure
 
-	>gem install allure-cucumber
+	gem install allure-cucumber
 
 Usage
 -------------
-	>enter project directory
-	>$ cucumber
-	>$ allure generate report
-	>$ allure report open
+	enter project directory
+	$ cucumber
+	$ allure generate report
+	$ allure report open
