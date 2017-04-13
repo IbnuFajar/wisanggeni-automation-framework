@@ -1,1 +1,0 @@
-default: --format AllureCucumber::Formatter --out report/
