@@ -1,7 +1,6 @@
 require 'selenium-webdriver'
 require 'rubygems'
-
-driver = Selenium::WebDriver.for :firefox
+driver = Selenium::WebDriver.for :chrome
 
 Given(/^I Open github$/) do
   driver.get 'https://github.com/'
