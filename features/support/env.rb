@@ -26,7 +26,7 @@ After do
   attach_file("screenshot", File.open("/allure-reports/data/attachments"))
 end
 AllureCucumber.configure do |c|
-   #c.output_dir = "/output/report"
+   c.output_dir = "/output/report"
    c.clean_dir  = true
    c.output_dir = '/data/allure-reports/'
    #c.attach_file("screenshot", screenshot)
