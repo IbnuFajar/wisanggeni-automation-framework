@@ -21,20 +21,16 @@ end
 
 #include AllureCucumber::DSL
 #screenshot = '/data/allure-reports/batata.png'
-include AllureCucumber::DSL
-After do
-  attach_file("screenshot", File.open("/allure-reports/data/attachments"))
-end
+#include AllureCucumber::DSL
+#After do
+#  attach_file("screenshot", File.open("/allure-reports/data/attachments"))
+#end
 AllureCucumber.configure do |c|
    c.output_dir = "/output/report"
    c.clean_dir  = true
+   c.tms_prefix      = '@HIPTEST--'
+   c.issue_prefix    = '@JIRAYA++'
+   c.severity_prefix = '@URGENCY:'
    #c.output_dir = '/data/allure-reports/'
    #c.attach_file("screenshot", screenshot)
-end
-
-AllureCucumber.configure do |c|
-  c.clean_dir  = true
-  c.tms_prefix      = '@HIPTEST--'
-  c.issue_prefix    = '@JIRAYA++'
-  c.severity_prefix = '@URGENCY:'
 end
