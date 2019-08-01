@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 require 'allure-cucumber'
-=======
 require 'selenium-webdriver'
 require 'rubygems'
 require 'allure-cucumber'
@@ -37,4 +35,3 @@ AllureCucumber.configure do |c|
    #c.output_dir = '/data/allure-reports/'
    #c.attach_file("screenshot", screenshot)
 end
->>>>>>> origin/master

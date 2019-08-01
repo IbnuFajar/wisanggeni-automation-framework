@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-Feature: Searching Ibnu Fajar Yunardi in Google
-  In this case i want to see Ibnu Fajar Yunardi Linkedin account
-
-  Scenario: I 
-  I want feature
-=======
 Feature: Searching wisanggeni-automation-framework in github
     In this case i want to clone wisanggeni-automation-framework
     @URGENCY:critical @JIRAYA++YZZ-100 @HIPTEST--9901
@@ -17,4 +10,3 @@ Feature: Searching wisanggeni-automation-framework in github
         #Given I Open github
         #And I Type wisanggeni-automation-framework
         #Then I Want to download wisanggeni-automation-framework
->>>>>>> origin/master

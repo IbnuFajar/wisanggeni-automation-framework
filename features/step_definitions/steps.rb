@@ -1,9 +1,6 @@
 require 'selenium-webdriver'
 require 'rubygems'
-<<<<<<< HEAD
 
-driver = Selenium::WebDriver.for :firefox
-=======
 driver = Selenium::WebDriver.for :chrome
 
 Given(/^I Open github$/) do
@@ -33,4 +30,3 @@ Then(/^I Want to download wisanggeni\-automation\-framework$/) do
   #making failed in the line bellow
   driver.find_element(:xpath,"//*[@id='js-repo-pjax-container']/div[2]/div[1]/div[4]/div[1]/div/div/div[2]/a[1aa]").click
 end
->>>>>>> origin/master
