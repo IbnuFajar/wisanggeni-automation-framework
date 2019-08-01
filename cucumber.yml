@@ -1,0 +1,2 @@
+default: --profile allure_report
+allure_report: --format AllureCucumber::Formatter --out report/
